@@ -7,6 +7,9 @@ class LoopTunnel {
     
     /**
         Finds the smallest factorial result relative to the given integer n
+     
+        Problem #25
+     
         - Author: Carlos L. Cuenca
         - Date: 05/19/2020
      */
