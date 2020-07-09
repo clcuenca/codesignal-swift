@@ -54,5 +54,27 @@ class LoopTunnel {
         return count
 
     }
+
+    func magicalWell(a: Int, b: Int, n: Int) -> Int {
+
+    var salary = 0
+    var a = a
+    var b = b
+    var n = n
+    
+    while n > 0 {
+        
+        salary += a*b
+        
+        a += 1
+        b += 1
+        
+        n -= 1
+        
+    }
+    
+    return salary
+
+}
     
 }
